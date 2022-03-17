@@ -1,0 +1,57 @@
+body
+{
+	font-family: sans;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eee;
+}
+#principal
+{
+	background-color: white;
+	padding: 10px;
+}
+
+#principal h2
+{
+	margin: 0;
+	text-align: center;
+	font-size: 130%;
+	margin-bottom: 20px;
+}
+
+#chat
+{
+	-width: 400px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	list-style: none;
+	padding: 3px;
+	height: 300px;
+	overflow: auto;
+	margin-top: 7px;
+}
+
+#chat li {
+	    -display:inline-table;
+}
+.menu {
+	display: flex;              /* Transformation en flexbox */
+	padding:0;                  /* Suppression des marges internes */
+	justify-content:center;
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+		margin: 6px;
+}
+.menu a {
+    display:block;                /* Transformation en block */
+
+
+}
+
+#bienvenue
+{
+	color: #aaa;
+	font-style: italic;
+}
