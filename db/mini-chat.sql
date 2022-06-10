@@ -1,6 +1,4 @@
-DROP DATABASE IF EXISTS minichat;
-CREATE DATABASE  minichat;
-USE minichat;
+
 
 CREATE TABLE users(
   num INT NOT NULL AUTO_INCREMENT,
